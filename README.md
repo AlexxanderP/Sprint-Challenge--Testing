@@ -26,9 +26,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 1. In Jest, what are the differences between `describe()` and `it()` globals, and what are good uses for them?
 
+   Describe is essentially just markup to make your tests easier to read. you can section tests of within describe blocks.
+
 2) What is the point of `Test Driven Development`? What do you think about this approach?
 
+   TDD is all about protecting your code. Both from yourself a month from now, and anyone else right now. it ensures that you or anyone else dont screw anything up on accident.
+
 3. Mention three types of automated tests.
+
+"unit tests" (which test a single “unit” of code, i.e. - a single function), "component tests" (which test individual components for component-based frameworks, i.e. - React, Angular, etc.), and "snapshot tests" (which test a current output of a component against a prior output of that same component).
 
 ## Project Set Up
 
