@@ -5,6 +5,25 @@ module.exports = {
     connection: {
       filename: "./games_data.db"
     },
-    useNullAsDefault: true
+    useNullAsDefault: true,
+    migrations: {
+      directory: "./data/migrations"
+    },
+    seeds: {
+      directory: "./data/seeds"
+    }
+  },
+  testing: {
+    client: "sqlite3",
+    connection: {
+      filename: "./data/test.db3"
+    },
+    useNullAsDefault: true,
+    migrations: {
+      directory: "./data/migrations"
+    },
+    seeds: {
+      directory: "./data/seeds"
+    }
   }
 };
